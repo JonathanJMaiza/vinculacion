@@ -14044,3 +14044,38 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .dtp .right {
 	right: 20px;
 }
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	text-align: center; 
+  }
+
+
+  .dropbtn {
+background-color: transparent; /* Hace el fondo transparente */
+border: none; /* Quita los bordes */
+cursor: pointer;
+}
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 100;
+  }
+  .dropdown-content a {
+display: block; /* Hace que los elementos a se muestren uno debajo del otro */
+padding: 8px 12px; /* Añade espacio entre los elementos */
+text-decoration: none; /* Quita la decoración de enlace */
+color: black; /* Color del texto */
+font-family: 'Montserrat'
+}
+  .dropdown:hover .dropdown-content {
+	display: block;
+   
+  }
+  a:hover {
+	color: #cc1c52; /* Color del texto al pasar el mouse */
+  }
