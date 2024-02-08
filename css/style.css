@@ -813,6 +813,7 @@ a[href*='tel'], a[href*='mailto'] {
 	border: 10px solid #ffffff;
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.13);
 	width: 50%;
+	text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -14083,4 +14084,9 @@ font-family: 'Montserrat'
   .imgnueva{
 	width:53px ;
 	height:80px
+  }
+  .imgprefieren{
+	width:500px ;
+	height:570px;
+	
   }
