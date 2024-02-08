@@ -14079,3 +14079,8 @@ font-family: 'Montserrat'
   a:hover {
 	color: #cc1c52; /* Color del texto al pasar el mouse */
   }
+
+  .imgnueva{
+	width:53px ;
+	height:80px
+  }
