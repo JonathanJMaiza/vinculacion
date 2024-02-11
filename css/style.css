@@ -14090,3 +14090,23 @@ font-family: 'Montserrat'
 	height:570px;
 	
   }
+
+  .espacios{
+	margin: 0px;
+	padding: 0px;
+  }
+
+  .espacioTodo{
+	width: 100%;
+  }
+
+  .margenpd{
+	padding-bottom: 20px;
+  }
+
+  .centrarv {
+	display: flex;
+	justify-content: center; /* Centra horizontalmente */
+	align-items: center; /* Centra verticalmente */
+	text-align: justify;
+  }
