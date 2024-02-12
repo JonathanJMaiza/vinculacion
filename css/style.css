@@ -14110,3 +14110,10 @@ font-family: 'Montserrat'
 	align-items: center; /* Centra verticalmente */
 	text-align: justify;
   }
+
+  .black {
+	color:#000000 !important
+  }
+  .griz {
+	color:#b7b7b7 !important
+  }
